@@ -50,6 +50,37 @@ export default function Sidebar({ user, onLogout }: SidebarProps) {
         </svg>
       ),
     },
+    {
+      path: '/emergency-access',
+      label: 'Emergency Access',
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <path
+            d="M9 2.2l1.8 3.6 4 .6-2.9 2.8.7 3.9L9 11.3l-3.6 1.8.7-3.9L3.2 6.4l4-.6L9 2.2z"
+            stroke="currentColor"
+            strokeWidth="1.2"
+            fill="none"
+            strokeLinejoin="round"
+          />
+          <path d="M9 6.3v3.8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+          <path d="M7.1 8.2h3.8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+        </svg>
+      ),
+    },
+    {
+      path: '/health-analytics',
+      label: 'Health Analytics',
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <path d="M2 15h14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+          <path d="M4 12l2.8-3.2 2.2 2.1 4-5.1 1 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="4" cy="12" r="1" fill="currentColor" />
+          <circle cx="6.8" cy="8.8" r="1" fill="currentColor" />
+          <circle cx="9" cy="10.9" r="1" fill="currentColor" />
+          <circle cx="13" cy="5.8" r="1" fill="currentColor" />
+        </svg>
+      ),
+    },
   ];
 
   return (

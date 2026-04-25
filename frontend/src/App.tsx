@@ -6,6 +6,9 @@ import Dashboard from './pages/Dashboard';
 import Appointments from './pages/Appointments';
 import Documents from './pages/Documents';
 import UploadDocument from './pages/UploadDocument';
+import EmergencyAccess from './pages/EmergencyAccess';
+import PublicEmergencyProfile from './pages/PublicEmergencyProfile';
+import HealthAnalytics from './pages/HealthAnalytics';
 import './index.css';
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
         <Route path="/appointments" element={<Appointments />} />
         <Route path="/documents" element={<Documents />} />
         <Route path="/documents/upload" element={<UploadDocument />} />
+        <Route path="/emergency-access" element={<EmergencyAccess />} />
+        <Route path="/health-analytics" element={<HealthAnalytics />} />
+        <Route path="/public/emergency/:token" element={<PublicEmergencyProfile />} />
       </Routes>
     </BrowserRouter>
   );
