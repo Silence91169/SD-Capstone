@@ -7,19 +7,20 @@
 ## Table of Contents
 
 1. [Problem Statement](#problem-statement)
-2. [Proposed Solution](#proposed-solution)
-3. [User Roles](#user-roles)
-4. [Main Modules](#main-modules)
-5. [Technology Stack](#technology-stack)
-6. [Security Features](#security-features)
-7. [Project Structure](#project-structure)
-8. [SDLC Approach](#sdlc-approach)
-9. [OOP Concepts Used](#oop-concepts-used)
-10. [Design Pattern — Strategy Pattern](#design-pattern--strategy-pattern)
-11. [Additional Patterns](#additional-patterns)
-12. [Database Design](#database-design)
-13. [Getting Started](#getting-started)
-14. [Team Contributions](#team-contributions)
+2. [Project Report](#project-report)
+3. [Proposed Solution](#proposed-solution)
+4. [User Roles](#user-roles)
+5. [Main Modules](#main-modules)
+6. [Technology Stack](#technology-stack)
+7. [Security Features](#security-features)
+8. [Project Structure](#project-structure)
+9. [SDLC Approach](#sdlc-approach)
+10. [OOP Concepts Used](#oop-concepts-used)
+11. [Design Pattern — Strategy Pattern](#design-pattern--strategy-pattern)
+12. [Additional Patterns](#additional-patterns)
+13. [Database Design](#database-design)
+14. [Getting Started](#getting-started)
+15. [Team Contributions](#team-contributions)
 
 ---
 
@@ -34,6 +35,14 @@ Medical records in the current healthcare ecosystem are largely paper-based, sil
 - **No secure sharing** — when records need to be shared between healthcare providers, the process is manual, slow, and prone to privacy violations.
 
 MediVault addresses all of these gaps with a secure, consent-driven, digital health record platform.
+
+---
+
+## Project Report
+
+The full project report is available here:
+
+[MediVault Report (Google Docs)](https://docs.google.com/document/d/1uAumLNQYZ0rz5A3BqA0RJwFVsnKgACFmaEe5yyOJH7k/edit?tab=t.0)
 
 ---
 
